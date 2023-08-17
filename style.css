@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    zoom: 80%;
+}
+
+.navbanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 976px;
+    width: 100%;
+    background-image: url(./Images/navbanner/bg.jpg);
+    background-size: cover;
+}
+
+.navbar {
+    padding-top: 40px;
+    height: 82px;
+    width: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlogo {
+    object-fit: cover;
+    width: 251px;
+}
+
+.navlinks>i {
+    cursor: pointer;
+    font-size: 32px;
+    color: white;
+}
+
+.fa-user {
+    margin: 0px 40px;
+}
+
+.bannerlogo {
+    width: 652px;
+    height: 150px;
+    object-fit: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.navbanner>.content {
+    margin-bottom: 131px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbanner>.content>h1 {
+    margin-top: 15px;
+    font-family: 'Jockey One', sans-serif;
+    font-size: 60px;
+    font-weight: 100;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 6px;
+    color: #FFFFFF;
+}
+
+.navbanner>.content>p {
+    margin-top: 37px;
+    margin-bottom: 50px;
+    width: 794px;
+    height: 148px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 28px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #F6F6F6;
+}
+
+a {
+    width: 252px;
+    height: 58px;
+    background-color: #234700;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    font-family: 'Inter';
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.bestseller {
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bestseller>h1 {
+    background: rgba(35, 71, 0, 0.75);
+    width: 1066px;
+    font-family: 'Jockey One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 177.02%;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.skincare,.haircare {
+    margin-top: 72px;
+    width: 100%;
+}
+
+.skincare>h3 {
+    margin-left: 155px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 177.02%;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.skincare>.skincards {
+    margin: 55px 155px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skincards>.card {
+    display: flex;
+}
+
+.skincards>.card>img {
+    width: 387px;
+    height: 483px;
+    object-fit: cover;
+    box-shadow: 4px 4px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 24px 0px 0px 24px;
+    -webkit-border-radius: 24px 0px 0px 24px;
+    -moz-border-radius: 24px 0px 0px 24px;
+    -ms-border-radius: 24px 0px 0px 24px;
+    -o-border-radius: 24px 0px 0px 24px;
+}
+
+.skincards>.card>.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: -1;
+    width: 352px;
+    height: 483px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 24px 24px 0px;
+    -webkit-border-radius: 0px 24px 24px 0px;
+    -moz-border-radius: 0px 24px 24px 0px;
+    -ms-border-radius: 0px 24px 24px 0px;
+    -o-border-radius: 0px 24px 24px 0px;
+}
+
+.skincards>.card>.content>h1 {
+    /*  */
+    margin-left: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 177.02%;
+    letter-spacing: 0.1em;
+    color: #3C7900;
+}
+
+.skincards>.card>.content>h2 {
+    margin-top: -20px;
+    margin-left: 30px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 177.02%;
+    letter-spacing: 0.1em;
+    color: #242424;
+}
+
+.skincards>.card>.content>h3 {
+    margin-top: -20px;
+    margin-left: 30px;
+    width: 292px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 177.02%;
+    letter-spacing: 0.1em;
+    color: #242424;
+}
+
+.skincards>.card>.content>a {
+    align-self: center;
+    margin-bottom: 55px;
+    background-color: #00AEEF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 177.02%;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+
+.haircare>h3 {
+    margin-right: 155px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    text-align: end;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 177.02%;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.haircare>.haircards {
+    margin: 55px 155px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.haircards>.card {
+    display: flex;
+}
+
+.haircards>.card>img {
+    width: 387px;
+    height: 483px;
+    object-fit: cover;
+    box-shadow: 4px 4px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 24px 24px 0px;
+    -webkit-border-radius: 0px 24px 24px 0px;
+    -moz-border-radius: 0px 24px 24px 0px;
+    -ms-border-radius: 0px 24px 24px 0px;
+    -o-border-radius: 0px 24px 24px 0px;
+}
+
+.haircards>.card>.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: -1;
+    width: 352px;
+    height: 483px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 24px 0px 0px 24px;
+    -webkit-border-radius: 24px 0px 0px 24px;
+    -moz-border-radius: 24px 0px 0px 24px;
+    -ms-border-radius: 24px 0px 0px 24px;
+    -o-border-radius: 24px 0px 0px 24px;
+}
+
+.haircards>.card>.content>h1 {
+    margin-left: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 177.02%;
+    letter-spacing: 0.1em;
+    color: #3C7900;
+}
+
+.haircards>.card>.content>h2 {
+    margin-top: -20px;
+    margin-left: 30px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 177.02%;
+    letter-spacing: 0.1em;
+    color: #242424;
+}
+
+.haircards>.card>.content>h3 {
+    margin-top: -20px;
+    margin-left: 30px;
+    width: 292px;
+    height: 130px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 177.02%;
+    letter-spacing: 0.1em;
+    color: #242424;
+}
+
+.haircards>.card>.content>a {
+    align-self: center;
+    margin-bottom: 55px;
+    background-color: #00AEEF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 177.02%;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.Categories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Categories>h1 {
+    margin-top: 130px;
+    background: rgba(35, 71, 0, 0.75);
+    width: 1066px;
+    font-family: 'Jockey One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 177.02%;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.Categories>.cards{
+    margin-top: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 50px;
+}
+
+
+.Categories>.cards>.card>img{
+
+width: 870px;
+height: 292px;
+
+}
+
+.Categories>h2{
+    margin-top: 60px;
+    margin-bottom: 25px;
+    font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size: 26px;
+line-height: 177.02%;
+text-align: center;
+letter-spacing: 0.1em;
+text-decoration-line: underline;
+color: #000000;
+}
+
+.footer{
+    margin-top: 128px;
+    width: 100%;
+    height: 463px;
+    overflow: hidden;
+    background-color: #F1F1F1;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+
+.footer>.info>img{
+    margin-top: 90px;
+width: 388px;
+margin-left: -20px;
+height: 82px;
+object-fit: cover;
+}
+
+.footer>.info>.list{
+    margin-top: 25px;
+}
+
+.footer>.info>.list>h1{
+    font-family: 'Inter', sans-serif;
+font-weight: 500;
+font-size: 20px;
+margin-bottom: 10px;
+line-height: 177.02%;
+letter-spacing: 0.1em;
+}
+
+.footer>.follow>h1{
+    margin-top: 115px;
+    font-family: 'Inter', sans-serif;
+font-weight: 600;
+font-size: 24px;
+line-height: 177.02%;
+letter-spacing: 0.1em;
+margin-bottom: 20px;
+}
+
+.footer>.follow>.icons>i{
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.footer>.app{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.footer>.app>img{
+width: 275px;
+height: 98px;
+}
