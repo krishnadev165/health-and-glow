@@ -367,7 +367,8 @@ a {
 
 
 .Categories>.cards>.card>img{
-
+object-fit: cover;
+object-position: top left;
 width: 870px;
 height: 292px;
 
